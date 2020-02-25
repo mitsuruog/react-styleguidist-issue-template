@@ -1,0 +1,40 @@
+.example-button {
+  border-radius: 3px;
+  background: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  cursor: pointer;
+}
+
+.example-button.is-primary {
+  background: #0094a9;
+  border: 1px solid #0094a9;
+  color: #ffffff;
+}
+
+.example-button.is-secondary {
+  background: #5eafad;
+  border: 1px solid #5eafad;
+  color: #ffffff;
+}
+
+.example-button.is-large {
+  padding: 1rem 1.5rem;
+  font-size: large;
+}
+
+.example-button.is-normal {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.example-button.is-small {
+  padding: 0.25rem 0.5rem;
+  font-size: small;
+}
+
+.example-button:disabled {
+  background: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  color: #aaaaaa;
+  cursor: no-drop;
+}
